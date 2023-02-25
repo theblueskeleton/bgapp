@@ -14,7 +14,7 @@ services:
 
         volumes:
 
-            - "/home/vagrant/bgapp/web:/var/www/html:ro" 
+            - "/projects/bgapp/web:/var/www/html:ro" 
         networks:
 
             - app-network
